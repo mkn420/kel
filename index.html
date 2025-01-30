@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Kel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.1/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="works/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body class="bg-light c-dark">
+    <div class="cursor"></div>
+    <div class="follower"></div>
+    <div class="noise"></div>
+    <div class="justify-center align-center mx-auto">
+        <header>
+            <div class="flex justify-center align-center">
+                <div class="fixed inter top-10 flex justify-between align-center w-full lg:w-[95%] text-[3vw] md:text-[2vw] lg:text-[1.5vw] xl:text-[1vw] 2xl:text-[1vw] uppercase darkk px-5 md:px-5 lg:px-0 xl:px-0 2xl:px-0 z-50">
+                    <div>
+                        <h1 class="line-dark mix-blend-difference">
+                            <a href="works/index.html" class="cursor-none">Works</a>
+                        </h1>
+                    </div>
+                    <div>
+                        <h1 class="line-dark">
+                            <a href="#" class="cursor-none"></a>
+                        </h1>
+                    </div>
+                    <div>
+                         <h1 class="line-dark rotate-90">
+                            <a href="about/index.html" class="cursor-none">About</a>
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="fixed inter bottom-10 flex justify-between items-center w-full lg:w-[95%] text-[3vw] md:text-[2vw] lg:text-[1.5vw] xl:text-[1vw] 2xl:text-[1vw] uppercase darkk px-5 md:px-5 lg:px-0 xl:px-0 2xl:px-0 z-50">
+                    <div>
+                        <h1 class="line-dark rotate-90">
+                            <a href="#" class="cursor-none">©2020</a>
+                        </h1>
+                    </div>
+                    <!-- <div>
+                        <h1 class="line-dark">
+                            <a href="#" class="">Kel</a>
+                        </h1>
+                    </div> -->
+                    <div>
+                        <h1 class="line-dark">
+                            <a href="mailto:michaelnamocot222@gmail.com" class="cursor-none">Email</a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div id="luxy">
+
+            <div class="container mx-auto w-full" style="height: 1000px;">
+                <div>
+                    <main class=" w-full h-full" >
+                        <div class="flex flex-col px-5 lg:px-10 w-full h-full my-[300px] gap-20">
+                           
+                            
+                            <div class="">
+                                <p class="ogg uppercase text-3xl lg:text-[4vw] lg:leading-none">Michael Namocot</p>
+                                <p class="inter-3 uppercase lg:text-base">Web designer based in Philippines.</p>
+                                
+                            </div>
+        
+                            <div class="flex justify-end items-center w-1/2 ml-auto">
+                                <p class="inter-3 uppercase lg:text-xl text-right">With over three years of experience in web design and development industry.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex flex-col px-5 lg:px-10 w-full h-full">
+                            <div class="my-[100px] w-full lg:w-1/2 flex flex-col lg:flex-row gap-10 items-start lg:items-center">
+                                    <p class="ogg uppercase text-3xl lg:text-4xl">I'm open for freelance projects, feel free to <a  href="mailto:michaelnamocot222@gmail.com"><u>start a project</u></a> to see how we can collaborate.</p>
+                                    <a  href="mailto:michaelnamocot222@gmail.com">
+                                        <p class="ogg uppercase text-base lg:text-xs p-10 bg-[#1a1a1a] rounded-full text-[#eaeaea] h-full h-full"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                      </svg>
+                                      </p>
+                                      </a>
+                                </div>
+                        </div>
+     
+                    </main>
+                </div>
+            </div>
+
+        </div>
+
+    
+   <!--  <div class="flex justify-end items-center">
+        <p class="inter-3 uppercase">yo, stay weird.</p>
+    </div> -->
+
+
+
+    <script src="works/script/script.js"></script>
+    <script src="works/script/luxy.js" charset="utf-8"></script>
+    <script>
+		luxy.init({
+			wrapper: '#luxy',
+			targets : '.luxy-el',
+			wrapperSpeed:  0.04
+		});
+	</script>
+</body>
+</html>
